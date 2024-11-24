@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply px-10 py-4 rounded-[1.8125rem] text-white text-desktop-tp5;
+  }
+}
